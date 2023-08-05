@@ -1,11 +1,8 @@
-#  Se achar necessario, faça import de outras bibliotecas
-
-
-
-
+# Pedro Henrique Oliveira Lima
 
 # Crie a função que será avaliada no exercício aqui
-
+def tem_duplicados(lista):
+    return len(set(lista)) < len(lista)
 
 
 
